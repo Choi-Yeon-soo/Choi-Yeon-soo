@@ -1,0 +1,8 @@
+num_dic = {1:'일', 2:'이', 3:'삼',4:'사',5:'오'}
+
+x = input()
+
+if int(x) in num_dic:
+    print(num_dic[int(x)])
+else:
+    print('None');
